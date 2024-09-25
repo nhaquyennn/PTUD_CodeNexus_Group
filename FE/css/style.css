@@ -75,7 +75,7 @@ ol {
 }
 
 /*---------------------
-  Helper CSS
+Helper CSS
 -----------------------*/
 
 .section-title {
@@ -723,11 +723,11 @@ ol {
 }
 
 /*---------------------
-  Categories
+Categories
 -----------------------*/
 
 .categories__item {
-	height: 300px;
+	height: 400px;
 	position: relative;
 }
 
@@ -747,7 +747,7 @@ ol {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 12px 0 10px;
-	background: #DDC3CB;
+	background: #ffffff;
 	display: block;
 }
 
@@ -776,7 +776,7 @@ ol {
 }
 
 /*---------------------
-  Featured
+Featured
 -----------------------*/
 
 .featured {
@@ -827,7 +827,7 @@ ol {
 }
 
 .featured__item__pic {
-	height: 270px;
+	height: 400px;
 	position: relative;
 	overflow: hidden;
 	background-position: center center;
@@ -913,11 +913,11 @@ ol {
 }
 
 /*---------------------
-  Latest Product
+Latest Product
 -----------------------*/
 
 .latest-product {
-	padding-top: 80px;
+	padding-top: 0px;
 	padding-bottom: 0;
 }
 
