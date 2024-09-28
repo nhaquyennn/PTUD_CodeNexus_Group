@@ -1051,10 +1051,6 @@ Sidebar
 	margin-bottom: 35px;
 }
 
-.sidebar__item.sidebar__item__color--option {
-	overflow: hidden;
-}
-
 .sidebar__item h4 {
 	color: #1c1c1c;
 	font-weight: 700;
