@@ -11,42 +11,6 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Humberger Begin -->
-    <div class="humberger__menu__overlay"></div>
-    <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
-        </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-            </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
-        </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Đăng nhập</a>
-            </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.php">Trang chủ</a></li>
-                <li><a href="shop-grid.php">Sản phẩm</a></li>
-                <li><a href="#">Giỏ hàng</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Shop Details</a></li>
-                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                        <li><a href="./checkout.html">Check Out</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.html">Liên hệ</a></li>
-            </ul>
-        </nav>
-        <div id="mobile-menu-wrap"></div>
-    </div>
-    <!-- Humberger End -->
-
     <!-- Header Section Begin -->
     <header class="header">
         <div class="header__top">
@@ -88,7 +52,7 @@
                             <li><a href="#">Giỏ hàng</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                                    <li><a href="./shoping-cart.php">Shoping Cart</a></li>
                                     <li><a href="./checkout.html">Check Out</a></li>
                                 </ul>
                             </li>
@@ -125,8 +89,10 @@
                             <ul>
                                 <li><a href="#">Sách Tiếng Việt</a></li>
                                 <li><a href="#">Sách Tiếng Anh</a></li>
-                                <li><a href="#">Báo</a></li>
-                                <li><a href="#">Truyện </a></li>
+                                <li><a href="#">Tạp Chí Tiếng Anh</a></li>
+                                <li><a href="#">Tạp Chí Tiếng Việt</a></li>
+                                <li><a href="#">Truyện Tiếng Việt</a></li>
+                                <li><a href="#">Truyện Tiếng Anh</a></li>
                             </ul>
                         </div>
                     </div>

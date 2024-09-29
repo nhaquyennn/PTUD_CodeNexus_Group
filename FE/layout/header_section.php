@@ -28,23 +28,23 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="header__logo">
-                    <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    <a href="./index.php"><img src="img/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-7">
                 <nav class="header__menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Trang chủ</a></li>
-                        <li><a href="./shop-grid.html">Sản phẩm</a></li>
+                        <li><a href="./index.php">Trang chủ</a></li>
+                        <li class="active"><a href="./shop-grid.php">Sản phẩm</a></li>
                         <li><a href="#">Giỏ hàng</a>
                             <ul class="header__menu__dropdown">
-                                <li><a href="./shop-details.html">Shop Details</a></li>
-                                <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                <li><a href="./checkout.html">Check Out</a></li>
+                                <li><a href="./shop-details.php">Shop Details</a></li>
+                                <li><a href="./shoping-cart.php">Shoping Cart</a></li>
+                                <li><a href="./checkout.php">Check Out</a></li>
                             </ul>
                         </li>
-                        <li><a href="./contact.html">Liên hệ</a></li>
-                        <li><a href="./contact.html">Chính sách</a></li>
+                        <li><a href="./contact.php">Liên hệ</a></li>
+                        <li><a href="./contact.php">Chính sách</a></li>
 
                     </ul>
                 </nav>
@@ -72,12 +72,14 @@
                         <i class="fa fa-bars"></i>
                         <span>DANH MỤC</span>
                     </div>
-                    <div class="active">
+                    <div class="category-list">
                         <ul>
                             <li><a href="#">Sách Tiếng Việt</a></li>
                             <li><a href="#">Sách Tiếng Anh</a></li>
-                            <li><a href="#">Báo</a></li>
-                            <li><a href="#">Truyện </a></li>
+                            <li><a href="#">Tạp Chí Tiếng Anh</a></li>
+                            <li><a href="#">Tạp Chí Tiếng Việt</a></li>
+                            <li><a href="#">Truyện Tiếng Việt</a></li>
+                            <li><a href="#">Truyện Tiếng Anh</a></li>
                         </ul>
                     </div>
                 </div>

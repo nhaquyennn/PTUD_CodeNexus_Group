@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Category Management</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .add-category {
+            margin: 20px auto;
+            width: 80%;
+            text-align: right;
+        }
+        .add-category button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search-bar {
+            margin: 20px auto;
+            width: 80%;
+            text-align: left;
+        }
+        .search-bar input {
+            width: 200px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="search-bar">
+        <label for="search">Search Category: </label>
+        <input type="text" id="search" placeholder="Search...">
+    </div>
+
+    <div class="add-category">
+        <button>Add New Category</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Category Name</th>
+                <th>Description</th>
+                <th>Parent Category</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fiction</td>
+                <td>Books that contain fictional stories.</td>
+                <td>None</td>
+                <td>Edit | Delete</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Books related to scientific topics.</td>
+                <td>None</td>
+                <td>Edit | Delete</td>
+            </tr>
+            <tr>
+                <td>Fantasy</td>
+                <td>Fictional books with magical elements.</td>
+                <td>Fiction</td>
+                <td>Edit | Delete</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

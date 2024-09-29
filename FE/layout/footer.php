@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/main_style.css" type="text/css">
 </head>
 <body>
     <!-- Footer Section Begin -->
@@ -57,6 +57,6 @@
 <script src="js/jquery.slicknav.js"></script>
 <script src="js/mixitup.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main1.js"></script>
 </body>
 </html>
