@@ -8,7 +8,7 @@
                 <!-- Thanh toán qua VNPAY -->
                 <div class="col-lg-6 col-md-6 mb-4 text-center">
                     <a href="#" class="payment-option d-block p-4 shadow rounded">
-                        <img src="img/pay-methods/vnpay.png" alt="VNPAY" class="img-fluid mb-3 payment-logo">
+                        <img src="img/pay-methods/vnpay-2.png" alt="VNPAY" class="img-fluid mb-3 payment-logo">
                         <h5 class="mt-2">Thanh toán qua VNPAY</h5>
                     </a>
                 </div>

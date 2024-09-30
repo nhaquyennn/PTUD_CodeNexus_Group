@@ -53,7 +53,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.php"><img src="img/logo.png" alt="Ogani Logo" class="img-fluid"></a>
+                        <a href="./index.php"><img src="img/logo-5.png" alt="Code-Nexus" class="img-fluid"></a>
                     </div>
                 </div>
                 <div class="col-lg-9 text-right">
