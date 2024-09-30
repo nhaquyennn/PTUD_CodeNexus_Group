@@ -74,10 +74,11 @@
                         </div>
                     </div>
 
-                    <!-- Phương thức thanh toán với hình ảnh -->
+                    <!-- Phương thức thanh toán  -->
                     <div class="col-lg-4 col-md-6">
                         <div class="checkout__order">
                             <h4>Phương thức thanh toán</h4>
+                            <!-- Phương thức thanh toán với momo
                             <div class="checkout__input__checkbox">
                                 <label for="momo">
                                     <img src="img/pay-methods/momo-40-10.png" alt="MoMo" style="width: 30px; height: auto;"> Thanh toán qua MoMo
@@ -91,7 +92,8 @@
                                     <input type="radio" id="zalopay" name="payment_method" value="zalopay">
                                     <span class="checkmark"></span>
                                 </label>
-                            </div>
+                            </div> -->
+                            <!-- Phương thức thanh toán với VNPAY -->
                             <div class="checkout__input__checkbox">
                                 <label for="vnpay">
                                     <img src="img/pay-methods/vnpay-40.png" alt="VNPAY" style="width: 30px; height: auto;"> Thanh toán qua VNPAY
@@ -99,6 +101,7 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
+                            <!-- Phương thức thanh toán khi nhận hàng -->
                             <div class="checkout__input__checkbox">
                                 <label for="cash">
                                     <i class="fa fa-money"></i> Thanh toán khi nhận hàng
