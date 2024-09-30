@@ -7,7 +7,7 @@
             <div class="row justify-content-center">
                 <!-- Thanh toán qua VNPAY -->
                 <div class="col-lg-6 col-md-6 mb-4 text-center">
-                    <a href="process_payment_vnpay.php" class="payment-option d-block p-4 shadow rounded">
+                    <a href="#" class="payment-option d-block p-4 shadow rounded">
                         <img src="img/pay-methods/vnpay.png" alt="VNPAY" class="img-fluid mb-3 payment-logo">
                         <h5 class="mt-2">Thanh toán qua VNPAY</h5>
                     </a>
@@ -15,7 +15,7 @@
 
                 <!-- Thanh toán khi nhận hàng -->
                 <div class="col-lg-6 col-md-6 mb-4 text-center">
-                    <a href="process_payment_cash.php" class="payment-option d-block p-4 shadow rounded">
+                    <a href="#" class="payment-option d-block p-4 shadow rounded">
                         <img src="img/pay-methods/tienmat.png" alt="Cash on Delivery" class="img-fluid mb-3 payment-logo">
                         <h5 class="mt-2">Thanh toán khi nhận hàng</h5>
                     </a>
