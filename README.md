@@ -1,67 +1,46 @@
-# Code Nexus - Online Book Rental
+# Code Nexus - Nền tảng thuê sách trực tuyến
 
-**Code Nexus** is a user-friendly web platform that allows book enthusiasts to rent books online with ease. Explore a vast collection of books, manage rentals, and get recommendations based on your interests. The website is built using PHP and MySQL for smooth performance and data management.
+**Code Nexus** là một nền tảng web thân thiện với người dùng, cho phép những người yêu sách có thể thuê sách trực tuyến một cách dễ dàng. Người dùng có thể khám phá một bộ sưu tập sách phong phú, quản lý việc thuê sách và nhận các gợi ý dựa trên sở thích của họ. Trang web được xây dựng bằng PHP và MySQL để đảm bảo hiệu suất và quản lý dữ liệu mượt mà.
 
-## Features
+## Tính năng
 
-- **Book Catalog**: Browse a wide range of books categorized by language, genre, and more.
-- **User Accounts**: Sign up, log in, and manage your rental history and preferences.
-- **Easy Rentals**: Rent books with just a few clicks, track rental periods, and extend rentals.
-- **Notifications**: Receive email reminders for upcoming due dates or overdue rentals.
-- **Responsive Design**: Optimized for mobile and desktop using Bootstrap.
+- **Danh mục sách**: Duyệt qua nhiều sách được phân loại theo ngôn ngữ, thể loại, và nhiều yếu tố khác.
+- **Tài khoản người dùng**: Đăng ký, đăng nhập và quản lý lịch sử thuê sách và sở thích cá nhân.
+- **Thuê sách dễ dàng**: Chỉ với vài cú nhấp chuột để thuê sách, theo dõi thời gian thuê và gia hạn thuê sách.
+- **Thông báo**: Nhận thông báo qua email về thời hạn sắp hết hoặc đã quá hạn thuê sách.
+- **Thiết kế đáp ứng**: Tối ưu hóa cho cả thiết bị di động và máy tính để bàn bằng Bootstrap.
 
-## Technology Stack
+## Công nghệ sử dụng
 
-- **Backend**: PHP (with Composer for dependency management)
-- **Database**: MySQL for secure and efficient data storage
-- **Frontend**: HTML, CSS, JavaScript, and Bootstrap 4 for responsive design
-- **Web Scraping**: Scrapy for collecting and updating book data
-- **Version Control**: Git
+- **Backend**: PHP (với Composer để quản lý các thư viện phụ thuộc)
+- **Cơ sở dữ liệu**: MySQL để lưu trữ dữ liệu một cách an toàn và hiệu quả
+- **Frontend**: HTML, CSS, JavaScript và Bootstrap 4 để đảm bảo thiết kế đáp ứng
+- **Web Scraping**: Scrapy để thu thập và cập nhật dữ liệu sách
+- **Quản lý phiên bản**: Git
 
-## Project Structure
+## Cấu trúc dự án
 
-Here’s an overview of the project directory structure:
+Dưới đây là cấu trúc thư mục của dự án:
 
 ```bash
 code-nexus/
 │
-├── config/                # Configuration files for the project
-├── public/                # Public-facing files (CSS, JS, images, etc.)
-│   ├── css/               # Stylesheets
-│   │   └── main_style.css
-│   ├── js/                # JavaScript files
-│   ├── img/               # Images (logos, banners, etc.)
-│   │   ├── logo.png
-│   │   └── homepage-banner.png
-│   └── index.php          # Main entry point for the web application
+├── ADMIN/                 # Quản lý dành cho admin
+├── app/                   # Thư mục ứng dụng chính
+├── demo-FE/               # Demo Frontend
+├── img/                   # Hình ảnh (logo, banner, v.v.)
+├── public/                # Các file công khai (CSS, JS, hình ảnh, v.v.)
+│   ├── css/               # Tệp stylesheet
+│   ├── js/                # Tệp JavaScript
+│   └── index.php          # Điểm bắt đầu chính cho ứng dụng web
 │
-├── resources/             # Views and assets for the frontend
-│   ├── views/             # HTML/PHP templates
-│   │   ├── header.php
-│   │   ├── footer.php
-│   │   └── home.php
-│   └── lang/              # Localization files
+├── sql/                   # Các file cơ sở dữ liệu (SQL)
+│   └── migrations.sql     # File migration SQL
 │
-├── routes/                # Route definitions for the application
-│   └── web.php
+├── vendor/                # Các thư viện phụ thuộc được quản lý bởi Composer
 │
-├── src/                   # Core backend logic (Models, Controllers)
-│   ├── Models/            # Database models
-│   │   └── Book.php
-│   ├── Controllers/       # Application logic
-│   │   └── BookController.php
-│   └── Services/          # Business logic services
-│
-├── database/              # Database-related files
-│   ├── migrations/        # Migration files for database schema
-│   └── seeds/             # Database seed files
-│
-├── tests/                 # Unit and feature tests
-│
-├── vendor/                # Composer dependencies
-│
-├── .env                   # Environment variables for the project
-├── composer.json          # Composer configuration file
-├── README.md              # Project documentation
-└── LICENSE                # License file
+├── composer.json          # Tệp cấu hình Composer
+├── composer.lock          # Tệp khóa của Composer
+├── README.md              # Tài liệu dự án
+└── LICENSE                # Tệp giấy phép
 ```
