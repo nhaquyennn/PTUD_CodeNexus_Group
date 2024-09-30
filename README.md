@@ -25,7 +25,7 @@ Dưới đây là cấu trúc thư mục của dự án:
 ```bash
 code-nexus/
 │
-├── ADMIN/                 # Quản lý dành cho admin
+├── admin/                 # Quản lý dành cho admin
 ├── app/                   # Thư mục ứng dụng chính
 ├── demo-FE/               # Demo Frontend
 ├── img/                   # Hình ảnh (logo, banner, v.v.)
