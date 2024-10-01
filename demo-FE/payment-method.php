@@ -1,4 +1,32 @@
 <?php require_once 'layout/header-pay.php'?>
+<style>
+    .payment-option {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .payment-option:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .payment-logo {
+        width: 150px; 
+        height: 150px;
+        object-fit: contain; 
+    }
+
+    .payment-option img {
+        transition: transform 0.3s ease;
+    }
+
+    .payment-option:hover img {
+        transform: scale(1.1);
+    }
+</style>
+
+
 <!-- Payment Method Section Begin -->
 <section class="payment-method spad">
     <div class="container">
@@ -27,31 +55,3 @@
 <!-- Payment Method Section End -->
 
 <?php require_once 'layout/footer-pay.php'?>
-
-<!-- Custom CSS to improve design -->
-<style>
-    .payment-option {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .payment-option:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    }
-
-    .payment-logo {
-        width: 150px; 
-        height: 150px;
-        object-fit: contain; 
-    }
-
-    .payment-option img {
-        transition: transform 0.3s ease;
-    }
-
-    .payment-option:hover img {
-        transform: scale(1.1);
-    }
-</style>
