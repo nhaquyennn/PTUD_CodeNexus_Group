@@ -1,3 +1,4 @@
+<<<<<<< HEAD:demo-FE/shop-details.php
 <?php include "layout/header.php";?>
     <!-- Hero Section Begin -->
     <section class="hero hero-normal">
@@ -54,21 +55,38 @@
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" style="background-image: url('img/breadcrumb.jpg');"></section>
+=======
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <?php require_once 'layout/header.php' ?>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <!-- <div id="preloder">
+        <div class="loader"></div>
+    </div> -->
+    <img src="img/breadcrumb.jpg" alt="">
+    <!-- Breadcrumb Section Begin -->
+    <!-- <section>
+>>>>>>> 46218a54c7a1177113656d8da09402e368c1b0a4:FE/shop-details.php
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Vegetable’s Package</h2>
+                         <h2>Vegetable’s Package</h2> 
                         <div class="breadcrumb__option">
-                            <a href="./index.html">Home</a>
-                            <a href="./index.html">Vegetables</a>
+                            <a href="./index.php">Home</a>
+                            <a href="./index.php">Vegetables</a>
                             <span>Vegetable’s Package</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Breadcrumb Section End -->
 
     <!-- Product Details Section Begin -->
@@ -79,7 +97,7 @@
                     <div class="product__details__pic">
                         <div class="product__details__pic__item">
                             <img class="product__details__pic__item--large"
-                                src="img/product/details/product-details-1.jpg" alt="">
+                                src="img/product/book-5.jpg" alt="">
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                             <img data-imgbigurl="img/product/details/product-details-2.jpg"
@@ -162,7 +180,7 @@
                                         elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus
                                         et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
                                         vel, ullamcorper sit amet ligula. Proin eget tortor risus.</p>
-                                        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem
+                                    <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem
                                         ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet
                                         elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
                                         porta. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus
@@ -292,5 +310,16 @@
         </div>
     </section>
     <!-- Related Product Section End -->
+<<<<<<< HEAD:demo-FE/shop-details.php
 
   <?php include "layout/footer-pay.php"?>
+=======
+     
+    <footer>
+        <?php require_once 'layout/footer.php' ?>
+    </footer>
+
+</body>
+
+</html>
+>>>>>>> 46218a54c7a1177113656d8da09402e368c1b0a4:FE/shop-details.php

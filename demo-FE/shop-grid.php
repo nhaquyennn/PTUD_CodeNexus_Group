@@ -2,19 +2,17 @@
 <html lang="zxx">
 
 <head>
-    <?php require_once 'layout/header.php'?>
+    <?php require_once 'layout/header.php' ?>
+    
 </head>
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
+    <!-- <div id="preloder">
         <div class="loader"></div>
-    </div>
+    </div> -->
     <!-- Page Preloder End -->
 
-    <!-- Header Section Begin -->
-    <?php require_once 'layout/header_section.php' ?>
-    <!-- Header Section End -->
 
     <!-- Product Section Begin -->
     <section class="product spad">
@@ -377,8 +375,9 @@
     </section>
     <!-- Product Section End -->
 
-    <!-- Footer -->
-    <?php require_once 'layout/footer.php'?>
+    <footer>
+        <?php require_once 'layout/footer.php' ?>
+    </footer>
 </body>
 
 </html>

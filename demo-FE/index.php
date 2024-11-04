@@ -1,5 +1,6 @@
 <?php require_once 'layout/header.php'?>
 
+<<<<<<< HEAD:demo-FE/index.php
 
     <!-- Hero Section Begin -->
     <section class="hero">
@@ -50,6 +51,19 @@
         </div>
     </section>
     <!-- Hero Section End -->
+=======
+<head>
+    <?php require_once 'layout/header.php' ?>
+    <?php require_once 'layout/header_section.php' ?>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+>>>>>>> 46218a54c7a1177113656d8da09402e368c1b0a4:FE/index.php
 
     <!-- Categories Section Begin -->
     <section class="categories">
@@ -88,7 +102,7 @@
     <!-- Categories Section End -->
 
     <!-- Sản phẩm được thuê nhiều -->
-    <section class="featured spad"> 
+    <section class="featured spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -435,9 +449,9 @@
         </div>
     </section>
     <!-- Latest Product Section End -->
-    
+
     <!-- Footer -->
-    <?php require_once 'layout/footer.php'?>
+    <?php require_once 'layout/footer.php' ?>
 </body>
 
 </html>
